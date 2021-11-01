@@ -1,0 +1,23 @@
+working command
+cat Desktop/t1/dataset-sample.txt | Desktop/t1/mapper.py | sort -k 1,1 | Desktop/t1/reducer.py Desktop/t1/output.txt
+
+
+
+
+
+
+
+
+
+
+
+testing
+
+cat Desktop/t1/dataset-sample.txt | Desktop/t1/mapper.py
+
+cat Desktop/t1/dataset-sample.txt | Desktop/t1/mapper.py | sort -k1,1 | Desktop/t1/reducer.py
+
+
+
+cat Desktop/t1/dataset_1per.txt | Desktop/t1/mapper.py
+cat Desktop/t1/dataset_1per.txt | Desktop/t1/mapper.py | sort -k1,1 | Desktop/t1/reducer.py
